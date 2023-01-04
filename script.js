@@ -1,6 +1,7 @@
+
 window.onload = () => {
     const button = document.querySelector('button[data-action="change"]');
-    button.innerText = '?';
+    button.innerText = '﹖';
 
     let places = staticLoadPlaces();
     renderPlaces(places);
@@ -9,12 +10,10 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'Pok�mon',
+            name: 'Pokèmon',
             location: {
 				lat: -36.83704,
-				lng: 174.64646,
-                // lat: <your-latitude>,
-                // lng: <your-longitude>,
+				lng: 174.64646
             },
         },
     ];
