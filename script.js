@@ -26,7 +26,7 @@ function staticLoadPlaces() {
 var models = [
     {
         url: './assets/test/test.gltf',
-        scale: '1.0 1.0 1.0',
+        scale: '0.5 0.5 0.5',
         info: 'Cube, testing...',
         rotation: '0 0 0',
     },
