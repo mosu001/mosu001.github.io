@@ -25,7 +25,7 @@ function staticLoadPlaces() {
 
 var models = [
     {
-        url: './assets/magnemite/test.glb',
+        url: './assets/test/test.gltf',
         scale: '1.0 1.0 1.0',
         info: 'Cube, testing...',
         rotation: '0 0 0',
